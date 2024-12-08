@@ -42,7 +42,8 @@ namespace WPF_LoginForm.View
 
         private void btnLogin_Click(object sender, RoutedEventArgs e)
         {
-
+            new MainWindow().Show();
+            this.Close();
         }
     }
 }
